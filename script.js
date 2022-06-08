@@ -10,9 +10,9 @@ By the end of the lab, all tests in the report should be passing.
 */
 
 const studentInformation = {
-  name: "Luke Skywalker",
+  name: "Travis Navarro",
   grade: "Junior",
-  advisor: "Obi-Wan Kenobi",
+  advisor: "Sana Waqar",
   major: "Computer Science",
   graduationYear: "2024",
   imageUrl: "https://1000logos.net/wp-content/uploads/2017/11/penn-state-football-logo.jpg",
@@ -193,7 +193,7 @@ function addCourseRowToReportCard(reportCardTableElement, course, rowNum) {
       <h4 class = "sem-col">${course.semester}</h4>
       <h4 class = "cred-col"><span class = "credit">${course.credits}</span> credits</h4>
       <h4 class = "lett-col">${course.grade}</h4>
-      <h4 id ="gpa-${rowNum + 1}" class = "pts-col"></h4>
+      <h4 id ="gpa-${rowNum + 1}" class = "pts-col">?</h4>
     </div>
 
   </div>
